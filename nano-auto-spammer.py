@@ -27,7 +27,6 @@ def send(wallet, source, destination, amount):
     return r.json()["block"]
 
 def main():
-    #wallet = "2A0FB86D6023E92C6980ECAAEFD812CDDE993D2BE29D2086933D80AF3AB2C84E"
     account_1, seed_1, key_1, account_2, seed_2, key_2, wallet = \
         get_account_info()
 
